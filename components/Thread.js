@@ -21,7 +21,7 @@ module.exports = React.createClass({
 
   render : function () {
     return React.DOM.div({
-      children : ThreadItem(this.props.thread.data)
+      children : ThreadItem(this.props.thread)
     });
   }
 

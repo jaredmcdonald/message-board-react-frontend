@@ -1,0 +1,4 @@
+{
+  "index"  : "/api/v1/comment/root",
+  "thread" : "/api/v1/comment/:id/thread"
+}

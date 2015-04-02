@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+'use strict';
+
 var debug = require('debug')('message-board-react-frontend');
 var app = require('../app');
 
