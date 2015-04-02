@@ -8,7 +8,8 @@ var ThreadItem = React.createClass({
     return null;
   },
 
-  handleClick : function () {
+  handleClick : function (event) {
+    event.stopPropagation(); // since `ThreadItems` can be nested within one another
     console.log(this.props._id);
   },
 

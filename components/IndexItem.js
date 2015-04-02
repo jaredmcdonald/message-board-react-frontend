@@ -9,7 +9,7 @@ module.exports = React.createClass({
   },
 
   handleClick : function () {
-    console.log(this.props._id);
+    // ...
   },
 
   render: function () {
